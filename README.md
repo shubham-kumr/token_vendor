@@ -1,4 +1,4 @@
-# � Token Vendor - Challenge 2 Complete ✅
+# Token Vendor
 
 <h4 align="center">
   <a href="https://speedrunethereum.com">SpeedRunEthereum</a> |
@@ -6,11 +6,11 @@
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
 
-� A complete implementation of the Token Vendor challenge from SpeedRunEthereum! This project demonstrates smart contract interactions, ERC20 token mechanics, and the approve pattern for secure token transfers.
+A complete implementation of the Token Vendor challenge from SpeedRunEthereum! This project demonstrates smart contract interactions, ERC20 token mechanics, and the approve pattern for secure token transfers.
 
 ⚙️ Built using NextJS, RainbowKit, Hardhat, Wagmi, Viem, and Typescript with Scaffold-ETH 2.
 
-## 🎯 Project Overview
+## Project Overview
 
 This decentralized application features:
 
@@ -35,7 +35,7 @@ This decentralized application features:
 
 1. **Clone and install dependencies:**
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/shubham-kumr/token_vendor
 cd token_vendor
 yarn install
 ```
@@ -62,7 +62,7 @@ yarn start
 yarn test
 ```
 
-## ✅ Implementation Status
+## Implementation Status
 
 ### Smart Contracts
 - ✅ **YourToken.sol**: ERC20 token with 1000 total supply
@@ -90,7 +90,7 @@ yarn test
 - ✅ Sell tokens with approve pattern
 - ✅ Owner withdraw functionality
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── packages/
@@ -111,7 +111,7 @@ yarn test
 │       └── components/          # Reusable UI components
 ```
 
-## 🔧 Key Features
+## Key Features
 
 ### Smart Contracts
 
@@ -139,7 +139,7 @@ yarn test
 5. **Sell Tokens**: Two-step process (Approve → Sell)
 6. **Events Page**: History of all buy/sell transactions
 
-## 🧪 Testing
+## Testing
 
 The project includes comprehensive automated tests:
 
@@ -168,7 +168,7 @@ yarn test
 6 passing (222ms)
 ```
 
-## � Deployment Guide
+## Deployment Guide
 
 ### 1. Local Testing (Completed ✅)
 ```bash
@@ -233,7 +233,7 @@ yarn vercel        # Deploy frontend
 yarn vercel --prod
 ```
 
-## 🔗 Production Checklist
+## Production Checklist
 
 - [ ] Deploy contracts to testnet/mainnet
 - [ ] Verify contracts on block explorer
@@ -242,7 +242,7 @@ yarn vercel --prod
 - [ ] Test all functionality on live site
 - [ ] Submit to [SpeedRunEthereum.com](https://speedrunethereum.com)
 
-## 🔐 Security Considerations
+## Security Considerations
 
 - ✅ **Ownable Pattern**: Only owner can withdraw ETH
 - ✅ **Approve Pattern**: Secure token transfers for selling
@@ -286,7 +286,7 @@ yarn vercel --prod
 - approve(): ~46,371 gas
 - transfer(): ~46,832 gas
 
-## � Challenge Complete!
+## Challenge Complete!
 
 This implementation successfully completes all requirements:
 
