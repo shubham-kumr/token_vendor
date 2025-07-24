@@ -273,18 +273,6 @@ yarn vercel --prod
 - 💬 [Telegram Chat](https://t.me/joinchat/F7nCRK3kI93PoCOk)
 - 🏃 [SpeedRunEthereum](https://speedrunethereum.com)
 
-## 📊 Gas Usage
-
-**Contract Deployment:**
-- YourToken: ~552,567 gas
-- Vendor: ~703,593 gas
-
-**Function Calls:**
-- buyTokens(): ~59,064 gas
-- sellTokens(): ~46,573 gas  
-- withdraw(): ~30,314 gas
-- approve(): ~46,371 gas
-- transfer(): ~46,832 gas
 
 ## Challenge Complete!
 
